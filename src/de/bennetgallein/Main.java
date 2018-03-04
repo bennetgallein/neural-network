@@ -16,6 +16,6 @@ public class Main {
 		inputs.add(i2);
 		
 		Neuron n = new Neuron(inputs, 3);
-		System.out.print(n.fireSigmoid());
+		System.out.print(n.fire());
 	}
 }
